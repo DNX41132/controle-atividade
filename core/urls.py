@@ -4,6 +4,6 @@ from .views import index, aluno, disciplinas
 
 urlpatterns = [
     path('', index, name='index'),
-    path('aluno/', disciplinas, name='aluno'),
-    path('disciplinas/', aluno, name='disciplinas'),
+    path('aluno/', aluno, name='aluno'),
+    path('disciplinas/', disciplinas, name='disciplinas'),
     ]
